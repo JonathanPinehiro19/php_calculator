@@ -1,0 +1,35 @@
+include_once('functions.php');
+   
+    $n1 = $_POST['base'];
+    $n2 = $_POST['exp'];
+    $op = $_POST['opcao'];
+    $res=1;
+
+    $base = (int)$n1;
+    $exp = (int)$n2;
+   
+   
+ 
+    
+    switch ($op) {
+         case 'soma':
+            echo 'A soma dos numeros é: '.soma($base,$exp);
+             break;
+         case 'sub':
+            echo 'A restante da subtração dos numeros é: '.sub($base,$exp);
+             break;
+         case 'multi':
+             'O produto dos numeros é: '.multi($base,$exp);
+             break;
+         case 'div':
+            echo 'O resultado da divisão dos numeros é: '.div($base,$exp);
+             break;
+          case 'med':
+            echo 'A média aritmédica é: '.media($base,$exp);
+             break;
+          case 'ex':
+            echo 'O resultado da exponenciação dos numeros é: '.ex($base,$exp);
+             break;
+     }
+    
+              }
