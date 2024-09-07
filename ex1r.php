@@ -230,7 +230,7 @@
 
     </div>
     <div class="copyright">
-        <p>© 2024 Jonathan Pinheiro | Calculadora desenvlvida para fins acadêmicos.</p>
+        <p>© 2024 Jonathan Pinheiro | Calculadora desenvolvida para fins acadêmicos.</p>
     </div>
 </body>
 
