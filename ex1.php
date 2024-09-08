@@ -8,6 +8,10 @@
     <!-- <link rel="stylesheet" href="index.css"> -->
     <style>
         body {
+            background-image: url('https://iili.io/d86TiQe.md.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: #161623;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             font-size: 16px;
@@ -113,6 +117,7 @@
             background-color: rgba(255, 255, 255, 0.2);
             border: 2px solid rgba(255, 255, 255, 0.3);
         }
+
         .copyright {
             font-family: Arial, Helvetica, sans-serif;
             position: absolute;
@@ -126,7 +131,7 @@
         .loader_cube--color {
             z-index: 1;
             filter: blur(2px);
-            background: linear-gradient(135deg, #1afbf0, #da00ff);
+            background: linear-gradient(135deg, #2193b5, #b51d39);
             animation: loadtwo 2.5s ease-in-out infinite;
         }
 
@@ -172,7 +177,7 @@
         <div class="loader_cube loader_cube--glowing"></div>
     </div>
     <div class="copyright">
-        <p>© 2024 Jonathan Pinheiro | Calculadora desenvlvida para fins acadêmicos.</p>
+        <p>© 2024 Jonathan Pinheiro</p>
     </div>
 
 
