@@ -179,7 +179,7 @@
 
             $base = (int)$n1;
             $exp = (int)$n2;
-            if (!is_numeric($n1) || !is_numeric($n2)) {
+            if (!is_numeric($n1) || !is_numeric($n2) || !is_int($n1) || !is_int($n2)) {
             ?><h1>ERRO!</h1>
                 <div class="result-error">
                     <a class="error-image" href="https://freeimage.host/i/d86PK8X"><img src="https://iili.io/d86tuKx.md.png" alt="d86PK8X.md.png" border="0"></a>
